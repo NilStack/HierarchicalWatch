@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B88259E71A26F464005E1A38 /* MyTableRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B88259E61A26F464005E1A38 /* MyTableRowController.m */; };
+		B88259EC1A270CCD005E1A38 /* DetailInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = B88259EB1A270CCD005E1A38 /* DetailInterfaceController.m */; };
+		B8A6CA651A260DF600C9B37E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A6CA641A260DF600C9B37E /* main.m */; };
+		B8A6CA681A260DF600C9B37E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A6CA671A260DF600C9B37E /* AppDelegate.m */; };
+		B8A6CA6B1A260DF600C9B37E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A6CA6A1A260DF600C9B37E /* ViewController.m */; };
+		B8A6CA6E1A260DF600C9B37E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8A6CA6C1A260DF600C9B37E /* Main.storyboard */; };
+		B8A6CA701A260DF600C9B37E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8A6CA6F1A260DF600C9B37E /* Images.xcassets */; };
+		B8A6CA731A260DF600C9B37E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8A6CA711A260DF600C9B37E /* LaunchScreen.xib */; };
+		B8A6CA7F1A260DF600C9B37E /* HierarchicalWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A6CA7E1A260DF600C9B37E /* HierarchicalWatchTests.m */; };
+		B8A6CA8F1A260E3200C9B37E /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A6CA8E1A260E3200C9B37E /* WatchKit.framework */; };
+		B8A6CA961A260E3200C9B37E /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A6CA951A260E3200C9B37E /* InterfaceController.m */; };
+		B8A6CA991A260E3200C9B37E /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A6CA981A260E3200C9B37E /* NotificationController.m */; };
+		B8A6CA9B1A260E3200C9B37E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8A6CA9A1A260E3200C9B37E /* Images.xcassets */; };
+		B8A6CA9F1A260E3200C9B37E /* HierarchicalWatch Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = B8A6CA9E1A260E3200C9B37E /* HierarchicalWatch Watch App.app */; };
+		B8A6CAA61A260E3200C9B37E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8A6CAA51A260E3200C9B37E /* Interface.storyboard */; };
+		B8A6CAA81A260E3200C9B37E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8A6CAA71A260E3200C9B37E /* Images.xcassets */; };
+		B8A6CAAB1A260E3200C9B37E /* HierarchicalWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B8A6CA8C1A260E3200C9B37E /* HierarchicalWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8A6CA791A260DF600C9B37E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8A6CA571A260DF600C9B37E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8A6CA5E1A260DF600C9B37E;
+			remoteInfo = HierarchicalWatch;
+		};
+		B8A6CAA01A260E3200C9B37E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8A6CA571A260DF600C9B37E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8A6CA9D1A260E3200C9B37E;
+			remoteInfo = "HierarchicalWatch Watch App";
+		};
+		B8A6CAA91A260E3200C9B37E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8A6CA571A260DF600C9B37E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8A6CA8B1A260E3200C9B37E;
+			remoteInfo = "HierarchicalWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B8A6CAB21A260E3200C9B37E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B8A6CAAB1A260E3200C9B37E /* HierarchicalWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B88259E51A26F464005E1A38 /* MyTableRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableRowController.h; sourceTree = "<group>"; };
+		B88259E61A26F464005E1A38 /* MyTableRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableRowController.m; sourceTree = "<group>"; };
+		B88259EA1A270CCD005E1A38 /* DetailInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailInterfaceController.h; sourceTree = "<group>"; };
+		B88259EB1A270CCD005E1A38 /* DetailInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailInterfaceController.m; sourceTree = "<group>"; };
+		B8A6CA5F1A260DF600C9B37E /* HierarchicalWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HierarchicalWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8A6CA631A260DF600C9B37E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8A6CA641A260DF600C9B37E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8A6CA661A260DF600C9B37E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8A6CA671A260DF600C9B37E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8A6CA691A260DF600C9B37E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B8A6CA6A1A260DF600C9B37E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B8A6CA6D1A260DF600C9B37E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8A6CA6F1A260DF600C9B37E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B8A6CA721A260DF600C9B37E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B8A6CA781A260DF600C9B37E /* HierarchicalWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HierarchicalWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8A6CA7D1A260DF600C9B37E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8A6CA7E1A260DF600C9B37E /* HierarchicalWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HierarchicalWatchTests.m; sourceTree = "<group>"; };
+		B8A6CA8C1A260E3200C9B37E /* HierarchicalWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HierarchicalWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8A6CA8E1A260E3200C9B37E /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		B8A6CA921A260E3200C9B37E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8A6CA931A260E3200C9B37E /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
+		B8A6CA941A260E3200C9B37E /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		B8A6CA951A260E3200C9B37E /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		B8A6CA971A260E3200C9B37E /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		B8A6CA981A260E3200C9B37E /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		B8A6CA9A1A260E3200C9B37E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B8A6CA9E1A260E3200C9B37E /* HierarchicalWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HierarchicalWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8A6CAA41A260E3200C9B37E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8A6CAA51A260E3200C9B37E /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		B8A6CAA71A260E3200C9B37E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8A6CA5C1A260DF600C9B37E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A6CA751A260DF600C9B37E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A6CA891A260E3200C9B37E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A6CA8F1A260E3200C9B37E /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8A6CA561A260DF600C9B37E = {
+			isa = PBXGroup;
+			children = (
+				B8A6CA611A260DF600C9B37E /* HierarchicalWatch */,
+				B8A6CA7B1A260DF600C9B37E /* HierarchicalWatchTests */,
+				B8A6CA901A260E3200C9B37E /* HierarchicalWatch WatchKit Extension */,
+				B8A6CAA21A260E3200C9B37E /* HierarchicalWatch Watch App */,
+				B8A6CA8D1A260E3200C9B37E /* Frameworks */,
+				B8A6CA601A260DF600C9B37E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8A6CA601A260DF600C9B37E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8A6CA5F1A260DF600C9B37E /* HierarchicalWatch.app */,
+				B8A6CA781A260DF600C9B37E /* HierarchicalWatchTests.xctest */,
+				B8A6CA8C1A260E3200C9B37E /* HierarchicalWatch WatchKit Extension.appex */,
+				B8A6CA9E1A260E3200C9B37E /* HierarchicalWatch Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8A6CA611A260DF600C9B37E /* HierarchicalWatch */ = {
+			isa = PBXGroup;
+			children = (
+				B8A6CA661A260DF600C9B37E /* AppDelegate.h */,
+				B8A6CA671A260DF600C9B37E /* AppDelegate.m */,
+				B8A6CA691A260DF600C9B37E /* ViewController.h */,
+				B8A6CA6A1A260DF600C9B37E /* ViewController.m */,
+				B8A6CA6C1A260DF600C9B37E /* Main.storyboard */,
+				B8A6CA6F1A260DF600C9B37E /* Images.xcassets */,
+				B8A6CA711A260DF600C9B37E /* LaunchScreen.xib */,
+				B8A6CA621A260DF600C9B37E /* Supporting Files */,
+			);
+			path = HierarchicalWatch;
+			sourceTree = "<group>";
+		};
+		B8A6CA621A260DF600C9B37E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8A6CA631A260DF600C9B37E /* Info.plist */,
+				B8A6CA641A260DF600C9B37E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8A6CA7B1A260DF600C9B37E /* HierarchicalWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8A6CA7E1A260DF600C9B37E /* HierarchicalWatchTests.m */,
+				B8A6CA7C1A260DF600C9B37E /* Supporting Files */,
+			);
+			path = HierarchicalWatchTests;
+			sourceTree = "<group>";
+		};
+		B8A6CA7C1A260DF600C9B37E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8A6CA7D1A260DF600C9B37E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8A6CA8D1A260E3200C9B37E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8A6CA8E1A260E3200C9B37E /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8A6CA901A260E3200C9B37E /* HierarchicalWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B8A6CA941A260E3200C9B37E /* InterfaceController.h */,
+				B8A6CA951A260E3200C9B37E /* InterfaceController.m */,
+				B88259EA1A270CCD005E1A38 /* DetailInterfaceController.h */,
+				B88259EB1A270CCD005E1A38 /* DetailInterfaceController.m */,
+				B88259E51A26F464005E1A38 /* MyTableRowController.h */,
+				B88259E61A26F464005E1A38 /* MyTableRowController.m */,
+				B8A6CA971A260E3200C9B37E /* NotificationController.h */,
+				B8A6CA981A260E3200C9B37E /* NotificationController.m */,
+				B8A6CA9A1A260E3200C9B37E /* Images.xcassets */,
+				B8A6CA911A260E3200C9B37E /* Supporting Files */,
+			);
+			path = "HierarchicalWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		B8A6CA911A260E3200C9B37E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8A6CA921A260E3200C9B37E /* Info.plist */,
+				B8A6CA931A260E3200C9B37E /* PushNotificationPayload.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8A6CAA21A260E3200C9B37E /* HierarchicalWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				B8A6CAA51A260E3200C9B37E /* Interface.storyboard */,
+				B8A6CAA71A260E3200C9B37E /* Images.xcassets */,
+				B8A6CAA31A260E3200C9B37E /* Supporting Files */,
+			);
+			path = "HierarchicalWatch Watch App";
+			sourceTree = "<group>";
+		};
+		B8A6CAA31A260E3200C9B37E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8A6CAA41A260E3200C9B37E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8A6CA5E1A260DF600C9B37E /* HierarchicalWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8A6CA821A260DF600C9B37E /* Build configuration list for PBXNativeTarget "HierarchicalWatch" */;
+			buildPhases = (
+				B8A6CA5B1A260DF600C9B37E /* Sources */,
+				B8A6CA5C1A260DF600C9B37E /* Frameworks */,
+				B8A6CA5D1A260DF600C9B37E /* Resources */,
+				B8A6CAB21A260E3200C9B37E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8A6CAAA1A260E3200C9B37E /* PBXTargetDependency */,
+			);
+			name = HierarchicalWatch;
+			productName = HierarchicalWatch;
+			productReference = B8A6CA5F1A260DF600C9B37E /* HierarchicalWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8A6CA771A260DF600C9B37E /* HierarchicalWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8A6CA851A260DF600C9B37E /* Build configuration list for PBXNativeTarget "HierarchicalWatchTests" */;
+			buildPhases = (
+				B8A6CA741A260DF600C9B37E /* Sources */,
+				B8A6CA751A260DF600C9B37E /* Frameworks */,
+				B8A6CA761A260DF600C9B37E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8A6CA7A1A260DF600C9B37E /* PBXTargetDependency */,
+			);
+			name = HierarchicalWatchTests;
+			productName = HierarchicalWatchTests;
+			productReference = B8A6CA781A260DF600C9B37E /* HierarchicalWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8A6CA8B1A260E3200C9B37E /* HierarchicalWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8A6CAAF1A260E3200C9B37E /* Build configuration list for PBXNativeTarget "HierarchicalWatch WatchKit Extension" */;
+			buildPhases = (
+				B8A6CA881A260E3200C9B37E /* Sources */,
+				B8A6CA891A260E3200C9B37E /* Frameworks */,
+				B8A6CA8A1A260E3200C9B37E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8A6CAA11A260E3200C9B37E /* PBXTargetDependency */,
+			);
+			name = "HierarchicalWatch WatchKit Extension";
+			productName = "HierarchicalWatch WatchKit Extension";
+			productReference = B8A6CA8C1A260E3200C9B37E /* HierarchicalWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		B8A6CA9D1A260E3200C9B37E /* HierarchicalWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8A6CAAC1A260E3200C9B37E /* Build configuration list for PBXNativeTarget "HierarchicalWatch Watch App" */;
+			buildPhases = (
+				B8A6CA9C1A260E3200C9B37E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HierarchicalWatch Watch App";
+			productName = "HierarchicalWatch Watch App";
+			productReference = B8A6CA9E1A260E3200C9B37E /* HierarchicalWatch Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8A6CA571A260DF600C9B37E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = peng;
+				TargetAttributes = {
+					B8A6CA5E1A260DF600C9B37E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B8A6CA771A260DF600C9B37E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = B8A6CA5E1A260DF600C9B37E;
+					};
+					B8A6CA8B1A260E3200C9B37E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B8A6CA9D1A260E3200C9B37E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = B8A6CA5A1A260DF600C9B37E /* Build configuration list for PBXProject "HierarchicalWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8A6CA561A260DF600C9B37E;
+			productRefGroup = B8A6CA601A260DF600C9B37E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8A6CA5E1A260DF600C9B37E /* HierarchicalWatch */,
+				B8A6CA771A260DF600C9B37E /* HierarchicalWatchTests */,
+				B8A6CA8B1A260E3200C9B37E /* HierarchicalWatch WatchKit Extension */,
+				B8A6CA9D1A260E3200C9B37E /* HierarchicalWatch Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8A6CA5D1A260DF600C9B37E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A6CA6E1A260DF600C9B37E /* Main.storyboard in Resources */,
+				B8A6CA731A260DF600C9B37E /* LaunchScreen.xib in Resources */,
+				B8A6CA701A260DF600C9B37E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A6CA761A260DF600C9B37E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A6CA8A1A260E3200C9B37E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A6CA9F1A260E3200C9B37E /* HierarchicalWatch Watch App.app in Resources */,
+				B8A6CA9B1A260E3200C9B37E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A6CA9C1A260E3200C9B37E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A6CAA61A260E3200C9B37E /* Interface.storyboard in Resources */,
+				B8A6CAA81A260E3200C9B37E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8A6CA5B1A260DF600C9B37E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A6CA6B1A260DF600C9B37E /* ViewController.m in Sources */,
+				B8A6CA681A260DF600C9B37E /* AppDelegate.m in Sources */,
+				B8A6CA651A260DF600C9B37E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A6CA741A260DF600C9B37E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A6CA7F1A260DF600C9B37E /* HierarchicalWatchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A6CA881A260E3200C9B37E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A6CA991A260E3200C9B37E /* NotificationController.m in Sources */,
+				B88259E71A26F464005E1A38 /* MyTableRowController.m in Sources */,
+				B88259EC1A270CCD005E1A38 /* DetailInterfaceController.m in Sources */,
+				B8A6CA961A260E3200C9B37E /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8A6CA7A1A260DF600C9B37E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8A6CA5E1A260DF600C9B37E /* HierarchicalWatch */;
+			targetProxy = B8A6CA791A260DF600C9B37E /* PBXContainerItemProxy */;
+		};
+		B8A6CAA11A260E3200C9B37E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8A6CA9D1A260E3200C9B37E /* HierarchicalWatch Watch App */;
+			targetProxy = B8A6CAA01A260E3200C9B37E /* PBXContainerItemProxy */;
+		};
+		B8A6CAAA1A260E3200C9B37E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8A6CA8B1A260E3200C9B37E /* HierarchicalWatch WatchKit Extension */;
+			targetProxy = B8A6CAA91A260E3200C9B37E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8A6CA6C1A260DF600C9B37E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8A6CA6D1A260DF600C9B37E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8A6CA711A260DF600C9B37E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8A6CA721A260DF600C9B37E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8A6CA801A260DF600C9B37E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B8A6CA811A260DF600C9B37E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8A6CA831A260DF600C9B37E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HierarchicalWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B8A6CA841A260DF600C9B37E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HierarchicalWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B8A6CA861A260DF600C9B37E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HierarchicalWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HierarchicalWatch.app/HierarchicalWatch";
+			};
+			name = Debug;
+		};
+		B8A6CA871A260DF600C9B37E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HierarchicalWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HierarchicalWatch.app/HierarchicalWatch";
+			};
+			name = Release;
+		};
+		B8A6CAAD1A260E3200C9B37E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = HierarchicalWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "HierarchicalWatch Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		B8A6CAAE1A260E3200C9B37E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = HierarchicalWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "HierarchicalWatch Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		B8A6CAB01A260E3200C9B37E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HierarchicalWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B8A6CAB11A260E3200C9B37E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HierarchicalWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8A6CA5A1A260DF600C9B37E /* Build configuration list for PBXProject "HierarchicalWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8A6CA801A260DF600C9B37E /* Debug */,
+				B8A6CA811A260DF600C9B37E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8A6CA821A260DF600C9B37E /* Build configuration list for PBXNativeTarget "HierarchicalWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8A6CA831A260DF600C9B37E /* Debug */,
+				B8A6CA841A260DF600C9B37E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8A6CA851A260DF600C9B37E /* Build configuration list for PBXNativeTarget "HierarchicalWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8A6CA861A260DF600C9B37E /* Debug */,
+				B8A6CA871A260DF600C9B37E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8A6CAAC1A260E3200C9B37E /* Build configuration list for PBXNativeTarget "HierarchicalWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8A6CAAD1A260E3200C9B37E /* Debug */,
+				B8A6CAAE1A260E3200C9B37E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8A6CAAF1A260E3200C9B37E /* Build configuration list for PBXNativeTarget "HierarchicalWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8A6CAB01A260E3200C9B37E /* Debug */,
+				B8A6CAB11A260E3200C9B37E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8A6CA571A260DF600C9B37E /* Project object */;
+}
